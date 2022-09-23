@@ -27,4 +27,4 @@
 
 - How to use CSS psuedoselectors like `::after` and `::first-child`
 
-## [Live-link]() of the project
+## [Live-link](https://homepage-of-dancing.netlify.app/) of the project
