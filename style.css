@@ -9,7 +9,6 @@
 
 body {
     background-color: #F5F2F0;
-    overflow: hidden;
 }
 
 .main {
@@ -226,4 +225,100 @@ body {
     height: 8rem;
     width: 4rem;
     margin-top: 9rem;
+}
+
+.mob-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 680px) {
+    .logo {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .person {
+        display: none;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .mob-menu {
+        display: block;
+        margin-top: 20px;
+        right: 0;
+        position: absolute;
+        margin-right: 30px;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading {
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    .heading h1 {
+        font-size: 60px;
+    }
+
+    .para h2 {
+        margin-top: 30px;
+        margin-left: 7rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        margin-left: -90px;
+    }
+
+    .social img {
+        margin-right: -150px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .services {
+        margin-left: 50px;
+    }
+
+    .arrow-down {
+        display: none;
+    }
+
+    .bottom-middle {
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+
+    .bottom-image img {
+        height: 20px;
+    }
+
+    .text h3 {
+        font-size: 15px;
+    }
+
+    .last-image img {
+        height: 10rem;
+        width: 15rem;
+    }
 }
